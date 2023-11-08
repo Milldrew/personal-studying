@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'first-three-project'`, () => {
+  it(`should have as title 'webgl-drills'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('first-three-project');
+    expect(app.title).toEqual('webgl-drills');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('first-three-project app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('webgl-drills app is running!');
   });
 });
