@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import * as three from 'three';
+import {TransformService} from './transform.service';
 
 @Injectable({
   providedIn: 'root'
@@ -17,17 +18,26 @@ export class CreateSceneService {
     color: 0x00ff00,
     wireframe: true
   });
-  mesth = new three.Mesh(this.geometry, this.material);
+  mesh = new three.Mesh(this.geometry, this.material);
 
   main() {
-    this.scene.add(this.mesth);
+    this.scene.add(this.mesh);
     this.scene.add(this.camera);
+    this.scene.add(new three.AxesHelper(5));
     const canvas = document.querySelector('canvas#webgl') || undefined
     const renderer = new three.WebGLRenderer({
       canvas
     });
-    this.camera.position.z = 5;
+    TransformService.moveMesh(this.camera, 1, 2, 10);
     renderer.setSize(this.size.width, this.size.height);
+    TransformService.moveMesh(this.mesh, 2, 0, 3);
+    const threeMatrix = new three.Matrix4();
+    threeMatrix.makeRotationFromEuler(new three.Euler(0, 8, 0));
+
+    this.mesh.setRotationFromMatrix(threeMatrix);
+
+
+
     renderer.render(this.scene, this.camera);
 
 
