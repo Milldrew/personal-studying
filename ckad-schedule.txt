@@ -1,0 +1,29 @@
+Finish all the labs by december 15th
+Start labs on Nov 12th
+─────────
+Monday: Complete all the lab exercises and add them to the drills
+Tuesday: Complete all the Knowledge checks and add the knowledge checks to the master knowledge check
+Wednesday: Complete all the lab exercises for the next section and all the knowledge checks for the next section
+Thursday: Review all the labas and knowledge checks in their entirety 
+─────────
+Week 1: Nov 12th - Nov 18th
+  02 Kubernetes Architecture
+  03 Build
+Week 2: Nov 19th - Nov 25th
+  04 Design
+  05 Deployment Configuration
+Week 3: Nov 26th - Dec 2nd
+  06 Understanding Security
+  07 Exposing  Application
+Week 4: Dec 3rd - Dec 9th
+  08 Application Troubleshooting
+  09 Course Completion
+─────────
+Week 5: Dec 10th - Dec 16th
+  • Create Drills
+  • Time drills
+Week 6: Dec 17th - Dec 23rd
+  • Do practice tests
+Week 7: Dec 24th - Dec 30th
+  • Do Certification Exam
+─────────
