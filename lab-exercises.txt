@@ -1,0 +1,52 @@
+────────────────────
+Provision a two node cluster with minikube
+minikube start --nodes 2 --cpus 2 --memory 4096 
+────────────────────
+List all the api resources
+kubectl api-resources
+────────────────────
+Write a pod manifest file
+# create a pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+────────────────────
+List the pods then display the description of the new pod
+kubectl get pods
+kubectl describe pod nginx
+────────────────────
+shut down the pod and verify its status
+kubectl delete pod nginx
+kubectl get pods
+────────────────────
+Create a basic cluserIp service for the nginx pod to expose the the service to other pods
+──────────────────
+configure the pod to expose port 80
+k exec nginx -- curl http://10.244.1.3
+────────────────────
+Create a NodePort to expose the pod to the outside world
+Use the minikube IP to connect to the nodeport 
+minikube IP
+────────────────────
+Create a multi-container pod with two containers add the fluent d logging agent to the pod
+────────────────────
+Create a simple nginx deployment
+list the deployments and pods
+describe the deployment
+describe the pod
+list the namespaces
+look at the pods in the kube-system namespace
+look at the pods in a namespace that doesn't exist
+look at pods in all the namespaces at the same time
+view several resources at once deploy, rs po  etc
+delete the replica set
+and view the resources again
+delete the top level controller the deployment
+view the resources again
+delete the basic service
+────────────────────

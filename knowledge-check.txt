@@ -1,0 +1,37 @@
+─────────
+Which of the following are part of a pod?
+
+A. One or more containers
+B. Shared IP address
+C. One namespace
+D. All of the above
+
+Answer: D
+─────────
+Which company developed Borg as an internal project?
+
+A. Amazon
+B. Google
+C. Toyota
+D. IBM
+
+Answer: B
+─────────
+In what database are the objects and the state of the cluster stored?
+
+A. ZooKeeper
+B. MySQL
+C. etcd
+D. Couchbase
+
+Answer: C
+─────────
+Orchestration is managed trhough a series of watch-loops or controlers. Each interrogates the ____ for a particular object state.
+
+A. kube-api-server
+B. etcd
+c. kubelet
+D. ntpd
+
+Answer: A
+─────────
