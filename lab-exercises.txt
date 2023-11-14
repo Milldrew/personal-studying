@@ -50,3 +50,7 @@ delete the top level controller the deployment
 view the resources again
 delete the basic service
 ────────────────────
+================================
+03 BUILDING A KUBERNETES CLUSTER
+================================
+
