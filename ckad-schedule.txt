@@ -4,10 +4,11 @@ Start labs on Nov 12th
 Monday: Complete all the lab exercises and add them to the drills
 Tuesday: Complete all the Knowledge checks and add the knowledge checks to the master knowledge check
 Wednesday: Complete all the lab exercises for the next section and all the knowledge checks for the next section
-Thursday: Review all the labas and knowledge checks in their entirety 
+Thursday: Review all the labs and knowledge checks in their entirety 
+Saturday: Do the practice exams using the killer.sh terminal.
 ─────────
 Week 1: Nov 12th - Nov 18th
-  02 Kubernetes Architecture
+  02 Kubernetes Architecture ✓
   03 Build
 Week 2: Nov 19th - Nov 25th
   04 Design
