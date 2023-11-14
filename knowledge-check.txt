@@ -35,3 +35,42 @@ D. ntpd
 
 Answer: A
 ─────────
+=========================
+03 BUILD
+=========================
+Which of the probes is used to check  that a container is ready to start accepting traffic?
+
+A. livenessProbe
+B. readinessProbe
+C. GuestAgentProbe
+D. HTTPCheck
+
+Answer: B
+─────────
+Which of hte following are methods for porbing container health?
+
+A. Command returns exit code 0
+B. HTTP status code is 200-399
+C. Establishes a TCP connection
+D. All of the above
+
+Answer: D
+─────────
+Which of the following commands will run a command in a container?
+A. kubectl exec
+B. kubectl run
+C. kubectl create
+D. kubectl apply
+
+Answer: A
+─────────
+
+Pods should never have more than one container
+
+A. True
+B. False
+
+Answer: B
+=========================
+
+
