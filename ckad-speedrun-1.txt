@@ -1,0 +1,32 @@
+BUILD DRILL
+----------------------------------
+1. List all the api resources.
+2. Write a pod manifest file for nginx
+  - Describe the pod
+  - get the ip address of the pod
+  - remove the pod
+3. Crete a deployment that creates two pods
+  - one two container pod with nginx and the javascript app
+  - one one container pod with the javascript app
+  - curl the nginx pod on port 80 from the javascript app
+  - BONUS create a daemon set with fluentd use the FluentD 
+    Meta Data Filter to add the pod name to the log message
+    and save all the logs to a file on the fluentD conatainer
+  - BONUS add a persistent volume to the fluentd container
+    and save the logs to the persistent volume 
+4. Add the startUpProbe readinessProbe and livenessProbe to the nginx container
+  - find the urls from the kubernetes docs for the liveness probe readiness probe 
+    and multicontainer probe yaml
+  - startUpProbe should check port 80
+  - readinessProbe should check port 80
+  - livenessProbe should check port 80
+remove resources----
+------------------------------
+DESIGN DRILL
+COMING SOON
+MUST READ THE DESIGN SECTION
+
+
+  
+
+
