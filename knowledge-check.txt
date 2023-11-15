@@ -178,6 +178,9 @@ We can specify egress rules in a network policy. True or False?
 A. True
 B. False
 
+=========================
+07 EXPOSING APPLICATIONS
+=========================
 Answer: A
 ─────────
 A clusterIP is accessible from outside the cluster. True or False?
@@ -208,4 +211,28 @@ D. Ingress controller
 
 Answer: D
 ─────────
+=========================
+08 APPLICATION TROUBLESHOOTING
+=========================
+Kubernetes includes cluster-wide logging. Trye or False?
+A. True
+B. False
 
+Answer: B
+─────────
+What is the CNCF project for monitoring and alerting in Kubernetes?
+A. Fluentd
+B. Prometheus
+C. Jaeger
+D. OpenTracing
+
+Answer: B
+─────────
+What does conformance ensure?
+A. Workloads on one distribution will work on another.
+B. API functions the same
+C. minimum functionality exists
+D. All of the above
+
+Answer: D
+─────────
