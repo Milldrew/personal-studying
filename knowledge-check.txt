@@ -103,5 +103,59 @@ C. Be evicted.
 D. Remain the same.
 
 Answer: C
+=========================
+05 DEPLOYMENT CONFIGURATION
+=========================
+Applications must use persistent storage. True or False?
+A. True
+B. False
 
+Answer: B
+─────────
+Does a deployment use a persistent volume or a persistent volume claim?
+A. persistent volume
+B. persistent volume claim
+
+Answer B
+─────────
+Which of the following setting determins what happens to persistent storage upon release?
+A. persistentVolumeReclaimPolicy
+B. releasePolicy
+C. StorageSettingsK8s
+D. None of the above
+
+Answer: A
+─────────
+A secret contains encrypted data. True or False?
+A. True
+B. False
+
+Answer: B
+─────────
+ConfigMaps can be created from ____.
+A. Literal values
+B. Individual files
+C. Multiple files
+D. All of the above
+
+Answer: D
+─────────
+Which of the following arguments do we pass to the kubectl rollout command to view object revisions?
+A. history
+B. rollout
+C. undo
+D. redo 
+
+Answer: A
+─────────
+Which of the following arguments do we pass to the kubectl rollout command to return to a previous version?
+A. history
+B. rollout
+C. undo
+D. redo
+
+Answer: C
+=========================
+06 DEPLOYMENT CONFIGURATION
+=========================
 
