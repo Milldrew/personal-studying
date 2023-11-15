@@ -158,4 +158,54 @@ Answer: C
 =========================
 06 DEPLOYMENT CONFIGURATION
 =========================
+Which of the following is not part of accessing the Kubernetes API?
+A. Authentication
+B. Keystone
+C. Authorization
+D. Admission Control
+
+Answer: B
+─────────
+Which agent accepts the --authorization-mode option to change the authorization tool in use?
+A. kubelet
+b. kubeadm
+c. kubectl
+d. kube-apiserver
+
+Answer: D
+─────────
+We can specify egress rules in a network policy. True or False?
+A. True
+B. False
+
+Answer: A
+─────────
+A clusterIP is accessible from outside the cluster. True or False?
+A. True
+B. False
+
+Answer: B
+─────────
+Creating a LoadBalancer service starts a Pod running a loadbalancer. True or False?
+A. True
+B. False
+
+Answer: B
+─────────
+Which of the followiing services does not use selectors?
+A. ClusterIP
+B. NodePort
+C. LoadBalancer
+D. ExternalName
+
+Answer: D
+─────────
+To expose a low port using a kubernetes object, you would have to use a ____.
+A. ClusterIP
+B. NodePort
+C. LoadBalancer
+D. Ingress controller
+
+Answer: D
+─────────
 
