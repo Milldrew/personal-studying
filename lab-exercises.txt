@@ -49,8 +49,18 @@ and view the resources again
 delete the top level controller the deployment
 view the resources again
 delete the basic service
+• check the current information about the offical test and if anything has been added •
 ────────────────────
 ================================
 03 BUILDING A KUBERNETES CLUSTER
 ================================
-
+────────────────────
+Build a node.js image and container using docker.
+Deploy a docker registry to kubernetes
+• configure probes •
+• check the current information about the offical test and if anything has been added •
+• Using thre thre URL locations allowed, bookmark the yaml example for liveness probe readiness probe and multicontainer pods
+deploy a new nginx webserver. add a liveness probe and readiness probe on 
+Biew the webserver page
+remove any resources created.
+────────────────────

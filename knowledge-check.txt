@@ -72,5 +72,36 @@ B. False
 
 Answer: B
 =========================
+04 DESIGN
+=========================
+Which o fthe following are helper container types? Choose all answers that are correct.
+A. Ambassador
+B. Adapter
+C ProbeHelper
+D. Sidecar
+
+Answer A, B, D
+
+─────────
+If a Pod uses more CPU than allowed, it will be evicted. True or False?
+A. True
+B. False
+
+Answer: B
+─────────
+If a pod uses more memory than a node has it will be evicted. True or False?
+A. True
+B. False
+
+Answer: A
+─────────
+If a pod uses more than spec.containers[].resources.requests.cpu it will be _____.
+
+A. Be restarted.
+B. Be migrated.
+C. Be evicted.
+D. Remain the same.
+
+Answer: C
 
 
