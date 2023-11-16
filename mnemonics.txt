@@ -1,0 +1,38 @@
+#POD MNEMONIC
+apiVersion: v1 # A
+kind: Pod # K
+metadata: # men
+  name: myapp-pod # need
+  labels: # labeled
+    app: myapp # apps
+spec: # special
+  containers: # containers
+    - name: nginx-container # named
+      image: nginx # ignore # imaginary
+      ports: # ports
+        - containerPort: 80 # cotained
+─────────────────────────
+
+#DEPLOYMENT MNEMONIC
+apiVersion: apps/v1 # A
+kind: Deployment # K
+metadata: # men
+  name: myapp-deployment # need
+  labels: # labeled
+    app: myapp # apps
+spec: # special
+  replicas: 3 # replicas
+  selector: # select
+    matchLabels: # matching
+      app: myapp # apps
+  template: # template
+    metadata: #men
+      labels: # labeled
+        app: myapp # apps
+    spec: # special
+      containers: # containers
+        - name: nginx-container # named
+          image: nginx # ignore # imaginary
+          ports: # ports
+            - containerPort: 80 # cotained
+─────────────────────────
