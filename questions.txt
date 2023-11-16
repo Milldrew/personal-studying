@@ -1,0 +1,1 @@
+In kubernetes when should you use a start up probe, a livenes probe, and a readiness probe?
