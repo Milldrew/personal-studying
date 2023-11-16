@@ -1,1 +1,3 @@
 In kubernetes when should you use a start up probe, a livenes probe, and a readiness probe?
+
+What are the URLS we are allowed to visit during the exam?

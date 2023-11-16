@@ -7,12 +7,22 @@ metadata: # men
     app: myapp # apps
 spec: # special
   containers: # containers
-    - name: nginx-container # named
+    - name: registry.k8s.io/busybox # named
       image: nginx # ignore # imaginary
       ports: # ports
         - containerPort: 80 # cotained
+      args: # arguments
+        - /bin/sh 
+        - -c
+        - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
+        livenessProbe: # probes
+          exec: # execute
+            command: # commands
+              - cat 
+              - /tmp/healthy 
+          initialDelaySeconds: 5 # delay
+          periodSeconds: 5 # periods
 ─────────────────────────
-
 #DEPLOYMENT MNEMONIC
 apiVersion: apps/v1 # A
 kind: Deployment # K
@@ -36,3 +46,4 @@ spec: # special
           ports: # ports
             - containerPort: 80 # cotained
 ─────────────────────────
+
