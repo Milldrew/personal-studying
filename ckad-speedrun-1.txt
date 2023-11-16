@@ -1,11 +1,11 @@
 BUILD DRILL
 ----------------------------------
-1. List all the api resources.
-2. Write a pod manifest file for nginx
+✓ 1. List all the api resources.             
+✓ 2. Write a pod manifest file for nginx
   - Describe the pod
   - get the ip address of the pod
   - remove the pod
-3. Crete a deployment that creates two pods
+3. Crete a deployment that creates two pods 
   - one two container pod with nginx and the javascript app
   - one one container pod with the javascript app
   - curl the nginx pod on port 80 from the javascript app
