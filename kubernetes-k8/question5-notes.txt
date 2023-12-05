@@ -1,0 +1,27 @@
+Create a token for a service account manually using a secret
+
+kubectl create serviceaccount <serviceaccount>
+kubectl create secret generic <secretname> --from-literal=token=<token> --type=kubernetes.io/service-account-token
+kubectl create token <serviceaccount> <tokenname> --secret-name <secretname>
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: <serviceaccount>-secret # this is the secret name
+  annotations:
+    kubernetes.io/service-account.name: <serviceaccount>
+type: kubernetes.io/service-account-token
+
+
+kubectl create serviceaccount neptune-sa-v2 -n neptune --dry-run=client -o yaml > neptune-sa-v2.yaml
+
+secret.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: neptune-sa-v2-secret
+  annotations:
+    kubernetes.io/service-account.name: neptune-sa-v2
+type: kubernetes.io/service-account-token
+
+kubectl create token neptune-sa-v2 neptune-sa-v2-token --secret-name neptune-sa-v2-secret
