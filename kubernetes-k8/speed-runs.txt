@@ -29,3 +29,4 @@ Q21-Q22   │            │          │
 Q15-Q22   │            │          │
 ──────────┼────────────┼──────────┼─────────
 
+start 10:18 pm 11:08 pm 50m problem with q6 because i haven't memorized how to create a readiness probe
