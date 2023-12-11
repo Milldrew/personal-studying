@@ -1,0 +1,7 @@
+Task1. Create a nginx pod that is namespace pluto and name it holy-api 
+        - turn it into a deployment named holy api with 3 replica delete the siingle pod once done
+Task2. Create a new clusterIP service for the holy-api deploymentt
+       - The clusterIp should should expose port 3333 and target the port 80 on the pod
+       - Write the nginx data to a file called html.data
+       - Check the logs of the pod and write the requests's log to log.data
+Task3  Create a pv, create a pvc, attach the pvc to a deployment.

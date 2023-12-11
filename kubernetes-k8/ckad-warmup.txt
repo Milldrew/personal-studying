@@ -1,0 +1,13 @@
+Task1 Create a pod named one-cpod connect to the pod
+Task2 create a pod named two-cpod
+    • create an empty dir and two container
+       - make each container write a file to the emptyDir
+    • connect to the pod and see if it is possible to connect to each container individually
+Task3 create a pod named host pod
+    • Create a host path volume for the container
+    • connect to the pod and write a file to the host path 
+    • check if it exists from the host path
+Task 4 Add a persistent volume and a persistent volume claim to the pod. Tush the host path as data storage
+Task 5. Turn the pod into a deployment.
+Task 6. Try to query the kubernetes api, then add a service account and connect to the kubernetes api form the pod
+        That has the service account.
