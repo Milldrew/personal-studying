@@ -1,0 +1,7 @@
+task1 Requests and limits, ServiceAccount
+      • Create a deployment
+      • memory request 20Mi and memory limit 50Mi
+      • create a sa and add it to the container spec
+task2 Labels and Annotations
+      • add a label to a pod by selecting it via a label
+      • add an anotation to the pod which has the new label 

@@ -1,0 +1,12 @@
+task1 Service Misconfiguration 
+      • create a deployment that uses a clusterIp svc in namespace foo
+      • from the default namespace test the clusterIp svc of the pod using a testpod
+task2 ClusertIP -> node port
+      • Change the clusterIP service to a node port
+      • check the internal clusterIP still exists under the node port
+      • check the external nodeip connects to the pod by curling the nodeIP:port
+task3 Network Policy
+      • add label to prior deployment id: frontend
+      • Create another deployment called backend
+      • create a network policy that only allows the frontend pod to communicate to the backend pod
+      • make sure that the network policy still allows outgoing traffic on udp/tcp ports 43 for dns resolution

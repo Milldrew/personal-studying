@@ -1,0 +1,14 @@
+task1: ConfigMap, ConfigMap-Volume
+      • create a config map that hold an html file of example.html form example.con
+      • create a pod and mount the config map to pod
+      • check if the config map is part of the pod
+task2: Logging sidecar
+      • create two pods 
+      • create an EmptyDir
+      • one pod writes something to a file in the empty dir
+      • the othe rpod tails -f to standard out
+      • the logs should be visible vie kubectl logs command
+task3: InitContainer 
+      • Create a deployment with two pods
+      • the busybox pod is the init container that writes html to the nginx pod at
+      • /usr/share/nginx/html
