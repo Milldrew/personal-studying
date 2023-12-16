@@ -1,14 +1,3 @@
-task 1: Create a PV, a PVC and a Pod volume
-      • create a pv with a capcity of 2Gi
-      • accessMode ReadWriteOnce
-      • hostPath /Volumes/Data
-      - Create a pvc requests 2Gi storage
-      - accessMode ReadWriteOnce 
-      ◎ create a new deployment
-      ◎ mount the volume at /tmp/project-data
-task 2: Storage, StoraceClass, PVC (This should not run because the provisioner won't exist)
-      • create a storageClass
-      • create a pvc with the storage class
 task3: Secret, Secret Volume, Secret Env
       • create a secret froma literal value
       • create a secret secrets.json file

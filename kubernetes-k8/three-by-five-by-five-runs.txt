@@ -1,0 +1,13 @@
+By Five run:
+  Complete the following drills 5 times
+  Each run should be less than two hours
+  You have 12 hours to complete all 5 runs
+─────────────────────────────────
+A three by five run:
+  • Do three exercises in a row three times in less than an hour: total 9 reps
+  • Do 5 exercises twice in a row in less than an hour. 10 reps
+    = 19 reps in 2 hours
+─────────────────────────────────
+TOTAL 5 * 19 = 95 reps.
+────────────────────────────────────
+Once this is easy you will take the ckad

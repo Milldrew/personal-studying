@@ -3,7 +3,7 @@ task1: ConfigMap, ConfigMap-Volume
       • create a pod and mount the config map to pod
       • check if the config map is part of the pod
 task2: Logging sidecar
-      • create two pods 
+      • create two pods in a single deployment
       • create an EmptyDir
       • one pod writes something to a file in the empty dir
       • the othe rpod tails -f to standard out
